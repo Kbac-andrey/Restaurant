@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'styles/reset.scss';
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(./assets/fonts/Poppins-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(./assets/fonts/Poppins-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(./assets/fonts/Poppins-Regular.ttf) format('truetype');
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Poppins Regular', sans-serif;
+  background-color: #EFEFEFFF;
+}
